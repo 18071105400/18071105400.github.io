@@ -14,14 +14,14 @@ url: "https://onesworld.cn" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username:#gaohaoyang126
-facebook_username:#gaohaoyang.water
+twitter_username: #gaohaoyang126
+facebook_username: #gaohaoyang.water
 github_username: 64345675
 email: m18071105400@@163.com
-weibo_username:#000
-zhihu_username:#000
-linkedIn_username:liwang
-dribbble_username:#000
+weibo_username: #000
+zhihu_username: #000
+linkedIn_username: liwang
+dribbble_username: #000
 
 description_footer: 来自病毒瓜子的个人专栏！
 
