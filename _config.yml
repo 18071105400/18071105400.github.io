@@ -7,9 +7,9 @@
 
 # Site settings
 title: 病毒瓜子
-brief-intro: Android and Python Coder
+brief-intro: Python and HTML CSS Javascript
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://onesworld.cn" # the base hostname & protocol for your site
+url: "https://www.onesworld.cn" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
@@ -17,10 +17,10 @@ permalink: /:year/:month/:day/:title/
 twitter_username: #gaohaoyang126
 facebook_username: #gaohaoyang.water
 github_username: 64345675
-email: m18071105400@@163.com
+email: m18071105400@163.com
 weibo_username: #000
 zhihu_username: #000
-linkedIn_username: liwang
+linkedIn_username: worren li
 dribbble_username: #000
 
 description_footer: 来自病毒瓜子的个人专栏！
