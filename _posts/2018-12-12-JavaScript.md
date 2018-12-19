@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "javascript第一篇"
 categories: javascript
@@ -11,7 +11,7 @@ author: worren li
 
 
 
-1. Javascript 概述
+{:toc}1. Javascript 概述
 	1. 浏览器解释型语言,嵌套在HTML文件中交给浏览器解释和执行.
 	2. 作用 : 实现用户交互(键盘或者鼠标操作);实现页面动效;小游戏制作等.
 	3. 组成 :
@@ -158,7 +158,7 @@ author: worren li
 			1. 变量声明未赋值时, 默认为undefined
 			2. 访问对象不存在的属性,默认也为undefined
 		5. null 空类型
-	2. 复杂(引用)数据类型				
+			 复杂(引用)数据类型				
 		对象,由属性和方法组成的
 	3. 检测数据类型
 		运算符(关键字) : typeof 
