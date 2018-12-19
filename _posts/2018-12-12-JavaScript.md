@@ -13,23 +13,39 @@ author: worren li
 
 {:toc}1. Javascript 概述
 	1. 浏览器解释型语言,嵌套在HTML文件中交给浏览器解释和执行.
+	 
 	2. 作用 : 实现用户交互(键盘或者鼠标操作);实现页面动效;小游戏制作等.
+	
 	3. 组成 :
+	 
 		1. 核心语法 (ECMAScript)
 		2. BOM : Browser Object Model,浏览器对象模型,提供一系列与浏览器相关的属性和方法
 		3. DOM : Document Object Model 文档对象模型,提供一系列操作页面的属性和方法
 		4. 自定义对象
+		
+		5. 
 {:toc}2. JS的使用
+
 	1. 元素绑定事件
+	
 		事件 : 所有用户的行为都称为事件
+		
 		事件处理函数 :
+		
 			对应用户的行为,JS中所做的操作
+			
 			onclick 单击事件
+			
 		语法 :
+		
 			<标签名 事件名="JS代码">
+			
 		JS语句 :
+		
 			alert("Hello world"); //网页弹框
+			
 			console.log("控制台输出");
+			
 	2. 在文档中嵌入JS代码,使用<script></script>
 	   注意 :
 	   	脚本标签在文档中可以书写任意多次,出现在任意位置,但是不同的位置有可能影响执行结果.
@@ -55,6 +71,7 @@ author: worren li
 				</script>
 			3. 外链方式给提示框
 				<script src=""></script>
+				
 {:toc}3. JS 基础语法规范
 	1. JS代码是由语句组成的,语句可以由变量,常量,运算符,关键字,函数等组成
 	2. JS代码中语句的结束以;为标志,可以省略
@@ -111,6 +128,7 @@ author: worren li
 			例 :
 				var a = 62.80000000004;
 				a = a.toFixed(2);
+				
 {:toc}5. JS数据类型
 	1. 简单数据类型
 		1. number 数值类型
@@ -164,6 +182,7 @@ author: worren li
 		运算符(关键字) : typeof 
 		typeof a;
 		typeof (code.toString(16));
+		
 {:toc}6. 数据类型转换
 	不同类型的数据进行运算,需要转换类型
 	1. 自动(隐式)类型转换
@@ -213,6 +232,7 @@ author: worren li
 					var s2 = parseFloat("18.5a");
 					//9.3
 					var s3 = parseFloat("9.3.5a");
+					
 {:toc}7. 运算符
 	1. 赋值运算符 =
 		将赋值符号右侧的值赋给左边的变量
