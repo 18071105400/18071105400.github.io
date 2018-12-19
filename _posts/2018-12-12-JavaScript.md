@@ -7,8 +7,11 @@ author: worren li
 ---
 
 *content
-{:toc}
-{:toc} Javascript 概述
+* Javascript 概述
+* JS的使用
+* JS 基础语法规范
+
+
 
 
 
@@ -26,8 +29,9 @@ author: worren li
 		3. DOM : Document Object Model 文档对象模型,提供一系列操作页面的属性和方法
 		4. 自定义对象
 		
-		5. 
-{:toc}2. JS的使用
+
+
+{:toc}2.JS的使用
 
 	1. 元素绑定事件
 	
