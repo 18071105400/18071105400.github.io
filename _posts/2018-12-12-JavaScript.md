@@ -7,10 +7,9 @@ author: worren li
 ---
 
 *content
-Javascript 概述{# index}
 
 
-[TOC]1. Javascript 概述(# index)
+##1. Javascript 概述
 
 	   1. 浏览器解释型语言,嵌套在HTML文件中交给浏览器解释和执行.
 	   2. 作用 : 实现用户交互(键盘或者鼠标操作);实现页面动效;小游戏制作等.
@@ -19,8 +18,8 @@ Javascript 概述{# index}
 		  2. BOM : Browser Object Model,浏览器对象模型,提供一系列与浏览器相关的属性和方法
 		  3. DOM : Document Object Model 文档对象模型,提供一系列操作页面的属性和方法
 		  4. 自定义对象
-		
-{:toc}2.JS的使用
+
+##2.JS的使用
 
 	1. 元素绑定事件
 	
@@ -55,7 +54,7 @@ Javascript 概述{# index}
 	   		</script>
 	   		
 	3. 外部的JS文件
-
+	
 	4. 
 		创建.js文件,在HTML中通过<script src=""></script>引入
 		
@@ -72,33 +71,34 @@ Javascript 概述{# index}
 				1. document.write()代码的书写位置,决定了内容在body中的添加位置
 				
 				2. 事件处理时书写的document.write(),会造成页面重写,点击会造成刷新
-				
-{:toc}3. JS 基础语法规范
+
+
+##3.JS 基础语法规范
 
 	1. JS代码是由语句组成的,语句可以由变量,常量,运算符,关键字,函数等组成
-
+	
 	2. JS代码中语句的结束以;为标志,可以省略
-
+	
 	3. JS代码严格区分大小写
 	
 		Console.log(); //错误
 		consolo.log(); //错误
 		
 	4. 所有的标点都是英文标点
-
+	
 	5. 注释 :
 	
 		单行 : //单行注释
 		多行 : /* 多行注释 */
 
-{:toc}4. JS的变量与常量
+##4. JS的变量与常量
 
 	1. 变量
-
+	
 		1. 变量表示在程序运行期间随时可以修改的数据
-
+	
 		2. 变量创建 :
- 
+	 
 			JS 变量使用 var 关键字表示
 			
 			语法 :
@@ -112,7 +112,7 @@ Javascript 概述{# index}
 		3. 变量的命名规范
 		4. 
 			1. 可以由数字,字母,下划线,$组成,禁止以数字开头;
-
+	
 			2. 禁止与关键字或保留字冲突(var const function class if do while 
 	for break continue name)
 		
@@ -125,7 +125,7 @@ Javascript 概述{# index}
 			4. 变量名严格区分大小写
 		
 		4. 输出变量
-
+	
 			var a = 100;
 			
 			console.log(a,b,'');
@@ -137,15 +137,15 @@ Javascript 概述{# index}
 			document.write('<h1>'+a+'</h1>');
 			
 		5. 变量使用注意 :
-
+	
 			1. 声明变量时,可以省略关键字var,会影响变量的作用域,谨慎使用
 			2. 变量使用var声明,但是未赋值,默认值为undefined
 			3. 如果变量既省略关键字,又未赋值,直接使用会报错
 				console.log(e); //error
 	2. 常量
-
+	
 		1. 一经声明就无法修改的数据
-
+	
 		2. 语法 :
 			常量使用关键字 const 声明,必须声明的同时赋值;为了与变量区分,常量名采用全大写字母表示
 			
@@ -154,7 +154,7 @@ Javascript 概述{# index}
 			注 : 强制修改常量,会报错	
 			
 		3. 练习 :
-
+	
 			自定义半径(变量),定义圆周率(常量),计算圆的周长和面积,控制台输出结果
 			
 		4. 小数位设置
@@ -165,11 +165,11 @@ Javascript 概述{# index}
 			例 :
 				var a = 62.80000000004;
 				a = a.toFixed(2);
-				
-{:toc}5. JS数据类型
+
+##5. JS数据类型
 
 	1. 简单数据类型
- 
+	 
 		1. number 数值类型
 	
 			1. 整数
@@ -243,16 +243,13 @@ Javascript 概述{# index}
 		运算符(关键字) : typeof 
 		typeof a;
 		typeof (code.toString(16));
-		
-{:toc}6. 数据类型转换
-不同类型的数据进行运算,需要转换类型
 
-	1. 自动(隐式)类型转换
-
-		1. 字符串与其他类型的数据结合,使用+号连接时,永远表示字符串的拼接
-		
+##6. 数据类型转换
+	不同类型的数据进行运算,需要转换类型
+	   1. 自动(隐式)类型转换
+		   1. 字符串与其他类型的数据结合,使用+号连接时,永远表示字符串的拼接
 			转换规则 : 将非字符串类型的数据转换成字符串,后进行拼接,最终结果仍为字符串
-		2. number + boolean
+		   2. number + boolean
 	
 			转换 : 将非number类型的数据,转换成number,进行数学相加
 			
@@ -265,7 +262,7 @@ Javascript 概述{# index}
 				
 		3. boolean + boolean
 			布尔类型参与数学运算,会自动转换成number
-
+	
 	2. 强制类型转换
 	
 		1. 转换字符串类型
@@ -313,8 +310,8 @@ Javascript 概述{# index}
 					var s2 = parseFloat("18.5a");
 					//9.3
 					var s3 = parseFloat("9.3.5a");
-					
-{:toc}7. 运算符
+
+##7. 运算符
 
 	1. 赋值运算符 =
 	
