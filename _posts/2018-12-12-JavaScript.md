@@ -17,17 +17,13 @@ author: worren li
 
 {:toc}1. Javascript 概述
 
-	1. 浏览器解释型语言,嵌套在HTML文件中交给浏览器解释和执行.
-	 
-	2. 作用 : 实现用户交互(键盘或者鼠标操作);实现页面动效;小游戏制作等.
-	
-	3. 组成 :
-	 
-		1. 核心语法 (ECMAScript)
-		
-		2. BOM : Browser Object Model,浏览器对象模型,提供一系列与浏览器相关的属性和方法
-		3. DOM : Document Object Model 文档对象模型,提供一系列操作页面的属性和方法
-		4. 自定义对象
+	   1. 浏览器解释型语言,嵌套在HTML文件中交给浏览器解释和执行.
+	   2. 作用 : 实现用户交互(键盘或者鼠标操作);实现页面动效;小游戏制作等.
+	   3. 组成 :
+	      1. 核心语法 (ECMAScript)
+		  2. BOM : Browser Object Model,浏览器对象模型,提供一系列与浏览器相关的属性和方法
+		  3. DOM : Document Object Model 文档对象模型,提供一系列操作页面的属性和方法
+		  4. 自定义对象
 		
 
 
