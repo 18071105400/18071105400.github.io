@@ -6,7 +6,7 @@ tags: javascript 基础语法
 author: worren li
 ---
 
-*content
+* content
 {:toc}
 
 
