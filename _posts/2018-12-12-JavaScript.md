@@ -7,10 +7,11 @@ author: worren li
 ---
 
 *content
+
 {:toc}
 
 
-## 1. [Javascript 概述] 
+## 1. Javascript 概述 
 
    1. 浏览器解释型语言,嵌套在HTML文件中交给浏览器解释和执行.
    2. 作用 : 实现用户交互(键盘或者鼠标操作);实现页面动效;小游戏制作等.
