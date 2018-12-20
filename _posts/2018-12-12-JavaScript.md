@@ -20,13 +20,13 @@ author: worren li
 
 ## 2.JS的使用 
    1. 元素绑定事件
-      事件 : 所有用户的行为都称为事件
-      事件处理函数 :对应用户的行为,JS中所做的操作
+      - 事件 : 所有用户的行为都称为事件
+      - 事件处理函数 :对应用户的行为,JS中所做的操作
       
-      onclick 单击事件
-      语法 :
+      - onclick 单击事件
+      - 语法 :
     		<标签名 事件名="JS代码">
-    	JS语句 :
+    	- JS语句 :
     		alert("Hello world"); //网页弹框
     		console.log("控制台输出");
     
@@ -38,7 +38,7 @@ author: worren li
        		<script>
        			JS 语句
        		</script>
-       
+      
     3. 外部的JS文件
     
     4. 
