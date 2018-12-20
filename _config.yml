@@ -6,7 +6,7 @@
 # 'here serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 病毒瓜子
+title: worren li
 brief-intro: Python and HTML CSS Javascript
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.onesworld.cn" # the base hostname & protocol for your site
@@ -23,7 +23,7 @@ zhihu_username: #000
 linkedIn_username: worren li
 dribbble_username: #000
 
-description_footer: 来自病毒瓜子的个人专栏！
+description_footer: 来自worren li的个人专栏！
 
 # comments
 # two ways to comment, only choose one, and use your own short name
