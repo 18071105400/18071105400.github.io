@@ -104,7 +104,9 @@ author: worren li &emsp;
 
 
 8. python3中常用的集合方法:
-  文档参见:![6](https://github.com/18071105400/18071105400.github.io/blob/master/img/6.png)
+  文档参见:
+
+  ![](https://github.com/18071105400/18071105400.github.io/blob/master/img/6.png)
 
 ## 集合是可迭代对象
 
