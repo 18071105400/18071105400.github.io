@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python总结第五篇"
+title: "Python-5-while"
 categories: Python
 tags: Python while
 author: worren li &emsp;
