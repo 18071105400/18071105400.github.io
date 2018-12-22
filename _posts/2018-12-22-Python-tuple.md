@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python总结第九篇"
+title: "Python-9元组"
 categories: Python
 tags: Python 元组
 author: worren li &emsp;
