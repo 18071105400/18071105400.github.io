@@ -68,7 +68,7 @@ author: worren li &emsp;
    注: 元组不支持 索引赋值和切片赋值  
 
 10. 元组的方法  
-![5](..\img\5.png)
+![5](../img/5.png)
 
 11.序列相关的函数也能用于元组中  
    len(x), max(x), min(x),  
