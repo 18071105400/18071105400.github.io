@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python总结第十一篇"
+title: "Python-11-set"
 categories: Python
 tags: Python 集合
 author: worren li &emsp;
@@ -105,7 +105,7 @@ author: worren li &emsp;
 
 8. python3中常用的集合方法:
   文档参见:
-   ![6](../img/6.png)
+   ![6](..\img\6.png)
 
 ## 集合是可迭代对象
 

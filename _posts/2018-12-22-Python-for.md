@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python总结第六篇"
+title: "Python-6-for"
 categories: Python
 tags: Python for
 author: worren li &emsp;

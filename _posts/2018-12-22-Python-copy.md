@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python总结第八篇"
+title: "Python-8-copy"
 categories: Python
 tags: Python 深拷贝浅拷贝
 author: worren li &emsp;

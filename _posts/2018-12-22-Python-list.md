@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python总结第七篇"
+title: "Python-7-list"
 categories: Python
 tags: Python 列表
 author: worren li &emsp;
@@ -68,7 +68,7 @@ x = [1, 2] * 3  # x =[1, 2, 1, 2, 1, 2]
 x = [1, 2]  
 x *= 2  # x = [1, 2, 1, 2]  
 ```
-    
+
 ## f.列表的比较运算  
 1. 运算符:  
    `<  <=  >  >=  ==  !=`
@@ -189,7 +189,7 @@ print(sum(L))  # 19
 ```
 
 python3中常用的列表方法(method)
-   ![4](../img/4.png)
+   ![4](..\img\4.png)
     
 # 4.列表与字符串比较:
    a. 列表和字符串都是序列,元素之间有先后顺序关系  
@@ -205,7 +205,7 @@ python3中常用的列表方法(method)
    a. 作用：  
 　　 创建列表  
    b. 语法:  
-   
+
 ```
 [ 表达式 for 变量 in 可迭代对象]  
 或  

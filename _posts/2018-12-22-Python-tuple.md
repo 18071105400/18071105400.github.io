@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python-9元组"
+title: "Python-9-tuple"
 categories: Python
 tags: Python 元组
 author: worren li &emsp;

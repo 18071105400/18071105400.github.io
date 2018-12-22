@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python总结第十篇"
+title: "Python-10-dict"
 categories: Python
 tags: Python 字典
 author: worren li &emsp;
@@ -126,7 +126,7 @@ d = dict(name="tarena", age=15)
 ```
 
 ## 字典的方法
-![7](../img/7.png)
+![7](..\img\7.png)
 ```
   示例:
     d = {0:'零', 5:'伍', 1:'壹', 2:'贰'}
