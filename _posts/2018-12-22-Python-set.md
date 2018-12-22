@@ -105,8 +105,8 @@ author: worren li &emsp;
 
 8. python3中常用的集合方法:
   文档参见:
-   ![6]([18071105400.github.io](https://github.com/18071105400/18071105400.github.io/tree/b0cf8ec30d5cfd30807e48858a9bfaa1fae13bbb)/[img](https://github.com/18071105400/18071105400.github.io/tree/b0cf8ec30d5cfd30807e48858a9bfaa1fae13bbb/img)/**6.png** 
-9. )
+   ![6](https://github.com/18071105400/18071105400.github.io/blob/master/img/6.png)
+9. 
 
 ## 集合是可迭代对象
 
