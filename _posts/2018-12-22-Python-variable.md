@@ -43,7 +43,6 @@ author: worren li &emsp;
   print(myinput(min))  # 1
   print(myinput(sum))  # 25
 ```
-
    3. 函数可以作用另一个函数的返回值  
 
 ## 函数的嵌套定义   
