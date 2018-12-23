@@ -56,7 +56,7 @@ author: worren li &emsp;
 ```
    作用域             英文解释          英文缩写
 局部作用域          Local(function)          L
-外部嵌套函数作用域  Enclosing Fucntion local  E
+外部嵌套函数作用域  Enclosing Function local  E
 函数定义所在模块(文件)的作用域  Global(module)  G
 Python内建模块的作用域     Builtin(python)    B
 ```
