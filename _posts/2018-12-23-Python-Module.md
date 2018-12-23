@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Python-16-module"
-categories: Python-module
+categories: Python
 tags: Python Module
 author: worren li &emsp;
 
