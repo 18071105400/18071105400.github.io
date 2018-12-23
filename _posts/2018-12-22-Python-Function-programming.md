@@ -151,6 +151,7 @@ author: worren li &emsp;
 * 由于闭包会使得函数中的变量都被保留在内存中,内存消耗比较大,所以不能滥用闭包  
 
 4. 闭包测试题:  
+
 ```
   试看下列程序的执行结果是什么?
   def get_funs(n):
@@ -165,6 +166,7 @@ author: worren li &emsp;
   print(funs[2](10))  # 30
   print(funs[3](10))  # 30
 ```
+
 
 ## 装饰器 decorators(专业提高篇)
 ### 什么是装饰器
