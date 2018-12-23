@@ -2,7 +2,7 @@
 layout: post
 title: "Python-4-str"
 categories: Python
-tags: Python 字符串
+tags: Python str
 author: worren li &emsp;
 
 ---
