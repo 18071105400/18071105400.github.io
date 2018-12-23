@@ -63,14 +63,14 @@ zip示例:
 ```
 enumerate 示例:
   names = ['中国移动', '中国电信', '中国联通']
- \ # for t in zip(range(100000000), names):
-  \#     print(t)
+  # for t in zip(range(100000000), names):
+  #     print(t)
   for t in enumerate(names):
       print(t)
-  \# 打印 (0, '中国移动')  (1, '中国电信')  (2, '中国联通')
+  # 打印 (0, '中国移动')  (1, '中国电信')  (2, '中国联通')
   for t in enumerate(names, 101):
       print(t)
- \ # 打印 (101, '中国移动')  (102, '中国电信')  (103, '中国联通')
+  # 打印 (101, '中国移动')  (102, '中国电信')  (103, '中国联通')
 ```
 
 ## 生成器 Generator
