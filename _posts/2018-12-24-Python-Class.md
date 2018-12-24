@@ -191,8 +191,9 @@ author: worren li &emsp;
 ```
 
 ## 9.用于实例对象的函数:
-   isinstance(obj, class_or_tuple)  返回这个对象obj是否是某个类的对象,或者某些类中一个类的对象.如果是则返回True,否则返回False 
-   type(obj)  返回对象的类型  
+    isinstance(obj, class_or_tuple)  返回这个对象obj是否是某个类的对象,或者某些类中一个类的对象.如果是则返回True,否则返回False 
+    
+    type(obj)  返回对象的类型    
 ```
   示例:
     class Dog:
