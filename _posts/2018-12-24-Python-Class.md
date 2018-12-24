@@ -327,33 +327,34 @@ author: worren li &emsp;
     issubclass(str, (A, B, int, object)) # True
 ```
 
-## 面向对象编程语言的特征:
-  继承
-  封装
-  多态
-## 封装 
+# 3.面向对象编程语言的特征:
+   继承  
+   封装  
+   多态  
+
+## 1.封装 
 * 封装是指隐藏类的实现细节,让使用者不关心这些细节，封装的目的是让使用者通过尽可能少的方法(或属性)操作对象
 
-### 私有属性和方法
+### a. 私有属性和方法
 * python类中以双下划线__开头,不以双下划线结尾的标识，符为私有成员,私有成员只能使用该类的方法进行访问和修改
 
 
-## 多态 polymorphic
+## 2.多态 polymorphic
 * 字面意思: '多种状态'
 
-### 编程语言的状态:
+### a.编程语言的状态:
 * 静态(编译时状态)  # C/C++
 * 动态(运行时状态)  # C++/Java
 
-### 多态原指在有继承关系的类中,调用基类对象的方法,实际能
+### b.多态原指在有继承关系的类中,调用基类对象的方法,实际能
 * 调用到子类覆盖方法的现象叫多态
 * 说明:
     python全部的对象都只有'运行时状态(动态)',没有C++语言里的编译时状态(静态)
 
-## 多继承 multiple inheritance  
+## 3.多继承 multiple inheritance  
 * 多继承是指一个子类继承自两个或两个以上的基类  
 
-### 1.多继承是的语法:
+### a.多继承是的语法:
 ```
     class 类名(基类名1, 基类名2, ...):
         语句
@@ -362,14 +363,14 @@ author: worren li &emsp;
     1. 一个子类同时继承自多个父类,父类中的方法可以同时被继承下来
     2. 如果两个父类中有同名的方法,而在子类中又没有覆盖此方法时,调用结果难以确定
 
-### 2.多继承的问题(缺陷)
+### b.多继承的问题(缺陷)
   标识符(名字空间) 冲突的问题要谨慎使用多继承
 
-### 3.多继承的MRO(Method Resolution Order) 问题
+### c.多继承的MRO(Method Resolution Order) 问题
     MRO --> 方法的解决(查找)顺序
     类的 __mro__属性用来记录类的方法的查找顺序
 
-### 4.对象转字符串函数的使用
+### d.对象转字符串函数的使用
     * repr(obj) 返回一个附合python语法规则的字符串,
     * 通常:
          eval(repr(obj)) == obj
@@ -378,10 +379,10 @@ author: worren li &emsp;
 * 说明:
     以上两个函数返回的一定是个字符串
 
-## 函数重写
+## 4.函数重写
 * 函数重写是指在自定义的类内添加相应的方法,让自定义的类创建的实例可以像内建对象一样进行函数操作
 
-* 对象转字符串函数的重写方法
+### a. 对象转字符串函数的重写方法
 ```
   repr(obj) 函数的重写方法:
       def __repr__(self):
@@ -399,7 +400,7 @@ str(obj) 函数调用方法说明:
      类的__repr__方法取值.
 ```
 
-内建函数重写
+### b.内建函数重写
 
 ```
   方法名                函数名
@@ -409,7 +410,7 @@ str(obj) 函数调用方法说明:
  __round__(self)    round(obj)
 ```
 
-数值转换函数重写
+### c.数值转换函数重写
 ```
    方法名                 函数名
   __complex__(self)      complex(obj)
@@ -418,7 +419,7 @@ str(obj) 函数调用方法说明:
   __bool__(self)         bool(obj)
 ```
 
-布尔测试函数bool(obj) 函数重写
+### d.布尔测试函数bool(obj) 函数重写
 * 作用:
     1. 用于bool(obj) 函数取值:  
     2. 用于if语句的真值表达式中  
@@ -428,15 +429,15 @@ str(obj) 函数调用方法说明:
     2. 当不存在obj.__bool__() 方法时,用 obj.__len__() 的返回值是否为零来测定布尔值
     3. 当不存在__len__() 方法时,则直接返回True
 
-## 对象的属性管理函数
-1. getattr(obj, name[, default])
-    从一个对象得到对象的属性；getattr(x, 'y') 等同于x.y;
+## 5.对象的属性管理函数
+1. getattr(obj, name[, default])  
+    从一个对象得到对象的属性；getattr(x, 'y') 等同于x.y;  
     当属性不存在时,如果给出default参数,则返回default,如果没有给出default 则产生一
-个AttributeError错误
+个AttributeError错误  
 
 2. hasattr(obj, name) 用给定的name返回对象obj是否有此属性,此种做法可以避免在
 getattr(obj, name)时引发错误
 
-3. setattr(obj, name, value) 给对象obj的名为name的属性设置相应的值value, set(x, 'y', v) 等同于 x.y = v
+3. setattr(obj, name, value) 给对象obj的名为name的属性设置相应的值value, set(x, 'y', v) 等同于 x.y = v  
 
-4. delattr(obj, name) 删除对象obj中的name属性,delattr(x, 'y') 等同于 del x.y
+4. delattr(obj, name) 删除对象obj中的name属性,delattr(x, 'y') 等同于 del x.y  
