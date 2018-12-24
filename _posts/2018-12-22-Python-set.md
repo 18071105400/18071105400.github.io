@@ -105,7 +105,7 @@ author: worren li &emsp;
 
 8. python3中常用的集合方法:
   文档参见:
-   ![6](..\img\6.png)
+![6](D:\GITHUB\18071105400.github.io\img\6.png)
 
 ## 集合是可迭代对象
 
