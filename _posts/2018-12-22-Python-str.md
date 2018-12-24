@@ -63,7 +63,7 @@ author: worren li &emsp;
 ```
 
 Python运算符优先级  
-![1](..\img\1.png)
+![运算符](https://github.com/18071105400/18071105400.github.io/blob/master/image/1.png?raw=true)
 
 ### 3.python3中能用于字符串的函数:  
     len(x)  返回字符串长度
@@ -102,8 +102,8 @@ Python运算符优先级
     123.isalpha()   # 出错
 ```
   方法见文档:
-   ![2](..\img\2.png)
-   ![3](..\img\3.png)
+   ![2](https://github.com/18071105400/18071105400.github.io/blob/master/image/2.png?raw=true)
+   ![3](https://github.com/18071105400/18071105400.github.io/blob/master/image/3.png?raw=true)
 
 ### 8.字符串格式化表达式
 1. 作用:

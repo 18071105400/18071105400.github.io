@@ -189,7 +189,7 @@ print(sum(L))  # 19
 ```
 
 python3中常用的列表方法(method)
-   ![4](..\img\4.png)
+   ![4](https://github.com/18071105400/18071105400.github.io/blob/master/image/4.png?raw=true)
     
 # 4.列表与字符串比较:
    a. 列表和字符串都是序列,元素之间有先后顺序关系  

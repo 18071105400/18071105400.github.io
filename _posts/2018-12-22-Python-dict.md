@@ -126,7 +126,7 @@ d = dict(name="tarena", age=15)
 ```
 
 ## 字典的方法
-![7](..\img\7.png)
+![字典](https://github.com/18071105400/18071105400.github.io/blob/master/image/7.png?raw=true)
 ```
   示例:
     d = {0:'零', 5:'伍', 1:'壹', 2:'贰'}
