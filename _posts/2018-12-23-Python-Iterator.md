@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python-20- Iterator"
+title: "Python-21- Iterator"
 categories: Python
 tags: Python 
 author: worren li &emsp;
@@ -107,7 +107,7 @@ enumerate 示例:
 3.说明:   
       if 子句可以省略  
       生成器表达式也可以象列表推导式一样嵌套    
-      
+    
       
 ```
   示例:
