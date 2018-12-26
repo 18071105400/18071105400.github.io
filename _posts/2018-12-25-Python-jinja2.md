@@ -1,3 +1,15 @@
+---
+layout: post
+title: "HTML-templates"
+categories: Web
+tags: html
+author: worren li &emsp;
+
+---
+
+* centent
+{:toc}
+
 # 1.模板 -templates
 
 ## 1,什么是模板
@@ -113,7 +125,7 @@ return render_template("xxx.html")
 			   3. first  
 		          作用:判断本次循环是否为第一次循环   
 			      值:True(是第一次循环) 或 False(非第一次循环)   
-				
+			
 			   4. last     
 			       作用:判断本次循环会否为最后一次循环  
 			       值:True(是最后一次循环) 或 False(非最后一次循环)  
@@ -167,7 +179,7 @@ return render_template("xxx.html")
 			3.请求(request) 和 响应(response)
 
 
- 
+
 
 
 
