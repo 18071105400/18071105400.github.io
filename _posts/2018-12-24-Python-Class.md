@@ -191,9 +191,10 @@ author: worren li &emsp;
 ```
 
 ## 9.用于实例对象的函数:
-    isinstance(obj, class_or_tuple)  返回这个对象obj是否是某个类的对象,或者某些类中一个类的对象.如果是则返回True,否则返回False 
+   isinstance(obj, class_or_tuple)  返回这个对象obj是否是某个类的对象,或者某些类中一个类的对象.如果是则返回True,否则返回False   
     
-    type(obj)  返回对象的类型    
+   type(obj)  返回对象的类型    
+
 ```
   示例:
     class Dog:
@@ -236,7 +237,7 @@ author: worren li &emsp;
     >>> help(Dog)
     >>> print(Dog.__doc__)
 ```
-## 4.类的 \__slots__\ 列表:
+## 4.类的 \__slots__ 列表:
 1. 作用:
     限定一个类创建的实例只能在固定的属性(实例变量)里选择,不允许对象添加此列表以外的实例属性,访问用户因错写属性名而发生程序错误
 2. 说明:
