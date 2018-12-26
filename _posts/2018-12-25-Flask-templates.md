@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "HTML-templates"
+title: "Flask-2-templates"
 categories: Web
-tags: html
+tags: Flask
 author: worren li &emsp;
 
 ---
