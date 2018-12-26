@@ -2,7 +2,7 @@
 layout: post
 title: "Flask-2-templates"
 categories: Flask
-tags: Flask
+tags: templates
 author: worren li &emsp;
 
 ---
