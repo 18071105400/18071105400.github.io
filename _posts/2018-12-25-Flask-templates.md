@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Flask-2-templates"
-categories: Web
+categories: Flask
 tags: Flask
 author: worren li &emsp;
 
